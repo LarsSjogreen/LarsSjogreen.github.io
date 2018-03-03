@@ -1,3 +1,3 @@
 ## Tjänster
 
-Lars Sjögreen Konsult erbjuder konsulttjänster och rådgivning inom mjukvaruteknik, företagsstrategi, IoT samt mekatronik och moderna prototypmetoder.
+Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster inom mjukvara, mukvaruarkitektur, IoT och, företagsstrategi.
