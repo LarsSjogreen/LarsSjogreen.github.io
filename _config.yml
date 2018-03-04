@@ -5,4 +5,5 @@ google_analytics: UA-115000064-1
 theme: jekyll-theme-merlot
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 ---
