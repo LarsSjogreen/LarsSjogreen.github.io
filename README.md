@@ -24,7 +24,7 @@ Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster in
 
 ## Kontakt
 
-[Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/)
+[Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [RSS](/feed.xml)
 
 ## Sidor
 {% for page in site.pages %}
