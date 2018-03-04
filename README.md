@@ -9,3 +9,6 @@ Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster in
 [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
+
+## Pages
+{{ site.pages }}
