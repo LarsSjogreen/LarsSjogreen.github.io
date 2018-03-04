@@ -22,7 +22,11 @@ Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster in
 
 {% endfor %}
 
-### Sidor
+## Kontakt
+
+[Twitter](https://twitter.com/barse)
+
+## Sidor
 {% for page in site.pages %}
 
 [{{ page.title }}]({{page.url}})
