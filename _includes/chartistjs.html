@@ -6,7 +6,7 @@
 <script type="text/javascript" src="http://canvg.github.io/canvg/canvg.js"></script> 
 
 <div class="ct-chart ct-perfect-fourth"></div>
-<canvas id="canvas" width="300px" height="200px"></canvas>
+<canvas id="canvas" width="506px" height="379px"></canvas>
 
 <script>
 var data = {
@@ -23,7 +23,8 @@ var options = {
   height: 200
 };
 
-svg = new Chartist.Line('.ct-chart', data);
-
+new Chartist.Line('.ct-chart', data);
+svg = document.getElementsByClassName('ct-chart-line');
 canvg(document.getElementById('canvas'),svg);
+
 </script>
