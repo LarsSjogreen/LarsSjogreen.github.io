@@ -1,3 +1,15 @@
+# Välkommen
+
+Detta är en webbplats som beskriver projekt, experiment och lärdomar.
+
+## Projekt
+
+* Modulsyntesizer
+* Brädspel
+* Musik
+* Öppen källkod
+* Gräsrotsrörelser
+
 ## Tjänster
 
 Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster inom mjukvara, mukvaruarkitektur, IoT och, företagsstrategi.
@@ -10,7 +22,7 @@ Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster in
 
 {% endfor %}
 
-## Sidor
+### Sidor
 {% for page in site.pages %}
 
 [{{ page.title }}]({{page.url}})
