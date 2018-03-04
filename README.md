@@ -10,5 +10,9 @@ Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster in
 
 {% endfor %}
 
-## Pages
-{{ site.pages }}
+## Sidor
+{% for page in site.pages %}
+
+[{{ page.title }}]({{page.url}})
+
+{% endfor %}
