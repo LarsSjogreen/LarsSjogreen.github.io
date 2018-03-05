@@ -4,7 +4,7 @@ Detta är en webbplats som beskriver projekt, experiment och lärdomar.
 
 ## Projekt
 
-* Modulsyntesizer
+* [Modularsyntesizer](/synthesizer.html)
 * Brädspel
 * Musik
 * Öppen källkod
