@@ -10,9 +10,9 @@ Detta är en webbplats som beskriver projekt, experiment och lärdomar.
 * Öppen källkod
 * Gräsrotsrörelser
 
-## Tjänster
+## Vad görs i Sjögreen Labs
 
-Sjögreen Labs erbjuder rådgivning, prototypframtagning och konsulttjänster inom mjukvara, mukvaruarkitektur, IoT och, företagsstrategi.
+Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microkontrollerprojekt samt rådgivning inom IoT, digitala lösningar och företagsstrategi.
 
 ## Blogg
 
