@@ -18,7 +18,7 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
 {% for post in site.posts %}
 
-    {% if forloop.rindex <= 3 %}
+    {% if forloop.rindex <= 2 %}
 
 [{{ post.title }}]({{ post.url }})
 
@@ -31,8 +31,4 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 [Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [RSS](/feed.xml)
 
 ## Sidor
-{% for page in site.pages %}
-
-[{{ page.title }}]({{page.url}})
-
-{% endfor %}
+{% for page in site.pages %}^[{{ page.title }}]({{page.url}})^{% endfor %}
