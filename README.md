@@ -18,7 +18,9 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
 {% for post in site.posts %}
 
-[{{ post.title }}]({{ post.url }})
+    {% if forloop.rindex <= 3 %}
+        [{{ post.title }}]({{ post.url }})
+    {% endif %}
 
 {% endfor %}
 
