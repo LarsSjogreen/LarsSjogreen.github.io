@@ -5,7 +5,7 @@ Detta är en webbplats som beskriver projekt, experiment och lärdomar.
 ## Projekt
 
 * [Modularsyntesizer](/synthesizer.html)
-* Brädspel
+* [Brädspel](https://boardgamegeek.com/collection/user/barse?gallery=small&rankobjecttype=subtype&rankobjectid=1&columns=title%7Cstatus%7Cversion%7Crating%7Cbggrating%7Cplays%7Ccomment%7Ccommands&geekranks=Board+Game+Rank&own=1&objecttype=thing&ff=1&subtype=boardgame)
 * Musik
 * Öppen källkod
 * Gräsrotsrörelser
