@@ -6,4 +6,4 @@ tags:
 ---
 ## Audiosynth.js
 
-{{% include audiosynth_base.html %}}
+{% include audiosynth_base.html %}
