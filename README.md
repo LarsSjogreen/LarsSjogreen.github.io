@@ -20,7 +20,7 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
     {% if forloop.rindex <= 5 %}
 
-[{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+[{{ post.title }}]({{ post.url }}) (Skriven {{ post.date | date: "%Y-%m-%d" }}. {{ post.content | number_of_words }} ord.)
 
     {% endif %}
 
