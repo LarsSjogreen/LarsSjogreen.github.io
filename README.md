@@ -30,3 +30,6 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
 [Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [RSS](/feed.xml)
 
+## Twitter
+
+{% include twitter.html %}
