@@ -1,0 +1,14 @@
+---
+tags:
+- synthesizer
+- diy
+---
+## Modularsynth-uppdatering
+
+De senaste veckorna har jag pysslat en del med modulsynthen. Jag började ganska oskyldigt för mindre än ett år sedan med att köpa ett [Doepfer-case i miniformat](http://www.doepfer.de/a100_mc.htm) (med plats för en 4-5 moduler), mest för att komma åt strömförsörjningen. Jag hade nämligen plockat upp ett [Doepfer-DIY-kretskort](https://www.schneidersladen.de/de/doepfer-diy-synth-tempco.html?___SID=U) på Schneidersladen i Berlin och bestämt mig för att sätta ihop det till en synth. Pysslet med att löda på och montera jack, potentiometrar och vippkontakter blev dock snart ett lite större projekt än jag från början hade tänkt mig.
+
+Jag gjorde en frontpanel i laserskäraren på Stockholm Makerspace och började montera och insåg ganska snart att det skulle sluta i en faslig kabelhärva. Därför kröp jag till korset och investerade i en [frontpanel-byggsats som jag hittade på Tindie](https://www.tindie.com/products/majobecher/mbknobs/?pt=ac_prod_search). Ny frontpanel skars ut i plywood, sandpapprades ner och markerades slutligen, vid färdigställandet, upp med hjälp av tuschpenna. Resultatet är hjälpligt funktionellt men kan inte ens med den bästa vilja i världen anklagas för att vara estetiskt tilltalande.
+
+Nästa vägbula på min väg var att jag insåg att det lilla Doepfer-caset inte skulle rymma DIY-synthen och att strömförsörjningen antingen skulle behöva monteras ur och sättas in i en annan låda, eller att något annat skulle behöva göras. Jag valde att köpa [en byggsats från Kina](https://www.aliexpress.com/item/New-DIY-Power-Supply-Module-USB-Boost-Single-Turn-Dual-Linear-Regulated-Power-Kit-Regulator-Multiple/32696126377.html) som, när den kom hem till mig, visade sig innehålla ytmonterade komponenter. (Inte särskilt många och jag hade säkert kunnat se det på bilden om jag hade brytt mig om att titta efter.) Bygget gick bra och efter många om och men så fick jag till slut igång synthen och började knirra och knorra. Den väntar fortfarande(!) på att justeras in, men jag har redan använt den en hel del. Den bor för tillfället i mitt fulaste case som jag har byggt av en trälåda som jag köpte på Flying Tiger för 40 kronor. Ovanpå den lådan så skruvade jag fast strömförsörjningen (som förresten blir väldigt varm, förmodligen för att den är lite underdimensionerad) och ett bakplan som jag lödde ihop med lite stripboard.
+
+Efter denna krångliga men i slutänden lyckade process så fick jag på allvar blodad tand. Jag har sedan dess lött ihop ett antal moduler (5-6 st i skrivande stund), köpt en färdigbyggd modul, [Doepfer A-124, Wasp filter](http://www.doepfer.de/a124.htm), modifierat en Korg Monotron Duo och byggt två större case med hjälp av ett sjok MDF och den kära laserskäraren. Mer om detta senare. Nästa bloggpost kommer också att innehålla antingen ljudbevis eller bilder.
