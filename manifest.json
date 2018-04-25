@@ -16,8 +16,14 @@
         "src": "images/lars192.png",
         "type": "image/png",
         "sizes": "192x192"
+      },
+      {
+          "src": "images/lars512.png",
+          "type": "image/png",
+          "sizes": "512x512"
       }
     ],
     "start_url": "",
-    "display": "standalone"
+    "display": "standalone",
+    "background_color": "#ece4d8"
   }
