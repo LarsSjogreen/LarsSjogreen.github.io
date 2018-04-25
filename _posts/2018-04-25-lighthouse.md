@@ -1,0 +1,5 @@
+## Lighthouse och annat
+
+Jag vet att jag är sen på pucken, men jag testade [Lighthouse](https://developers.google.com/web/tools/lighthouse/) idag och jag önskar att den hade funnits för fyra-fem år sedan då jag som bäst funderade på webboptimering, SEO och responsivitet. Förutom att den numera är inbyggd i dev tools i Chrome (under fliken "Audits") så finns den också som plugin till Chrome (om man vill ha en knapp att trycka på istället) och dessutom som fristående command line-program som man enkelt installerar genom att skriva `npm install -g lighthouse`.
+
+Jag ska testa lite grann och kanske göra några små förändringar utifrån rekommendationerna som ges. Github pages ger ju inte total frihet, men jag tror att jag kan göra några små ändringar här och där för att öka min PWA-score och prestanda.
