@@ -1,0 +1,22 @@
+{
+    "short_name": "S-Labs",
+    "name": "Sjögreen Labs",
+    "icons": [
+      {
+        "src": "images/lars48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "images/lars96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "images/lars192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": ""
+  }
