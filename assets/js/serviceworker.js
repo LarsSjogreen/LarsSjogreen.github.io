@@ -4,6 +4,8 @@ var urlsToCache = [
   '/assets/css/style.css',
   '/assets/css/mobile.css',
   '/assets/js/modernizr.js',
+  '/assets/css/non-screen.css',
+  '/assets/js/jquery.min.js',
   '/assets/js/headsmart.min.js'
 ];
 
