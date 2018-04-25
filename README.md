@@ -32,4 +32,4 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
 ## Twitter
 
-{% include twitter.html %}
+<!-- {% include twitter.html % } -->
