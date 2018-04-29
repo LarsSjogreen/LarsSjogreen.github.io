@@ -1,0 +1,9 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/field-kit/2.1.0/field-kit.min.js"></script>
+
+<input id="mastercard" />
+
+<script>
+  var field = new FieldKit.CardTextField(document.getElementById('mastercard'));
+  field.setValue('1234 2345 3456 4567');
+  field.setCardMaskStrategy(FieldKit.CardTextField.CardMaskStrategy.DoneEditing);
+</script>
