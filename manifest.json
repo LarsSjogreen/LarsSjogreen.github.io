@@ -23,8 +23,8 @@
           "sizes": "512x512"
       }
     ],
-    "start_url": "https://labs.sjögreen.se/",
-    "scope_url": "https://labs.sjögreen.se/",
+    "start_url": "/",
+//    "scope_url": "https://labs.sjögreen.se/",
     "display": "standalone",
     "background_color": "#ece4d8",
     "theme_color": "#ece4d8"
