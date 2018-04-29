@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Hiding Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
