@@ -20,7 +20,7 @@
     var urlsToCache = [
       {% for post in site.posts %}
         {% if forloop.rindex <= 15 %}
-          "'" + post.url + "',"
+          "'" + {{ post.url }} + "',"
         {% endif %}
       {% endfor %}
       ,
