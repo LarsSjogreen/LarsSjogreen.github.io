@@ -1,4 +1,5 @@
 var CACHE_NAME = 'my-site-cache-v3';
+/*
 var urlsToCache = [
   '/',
   '/assets/css/style.css',
@@ -6,9 +7,9 @@ var urlsToCache = [
   '/assets/js/modernizr.js',
   '/assets/css/non-screen.css',
   '/assets/js/jquery.min.js',
-  '/assets/js/headsmart.min.js',
-  '/*'
+  '/assets/js/headsmart.min.js'
 ];
+*/
 
 self.addEventListener('install', function(event) {
   // Perform install steps

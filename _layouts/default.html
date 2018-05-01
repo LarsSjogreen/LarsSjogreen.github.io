@@ -20,6 +20,23 @@
     <script type="text/javascript" src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/headsmart.min.js' | relative_url }}"></script>
     <script type="text/javascript">
+    var urlsToCache = [
+      {% for post in site.posts %}
+        {% if forloop.rindex <= 15 %}
+          "'" + post.url + "',"
+        {% endif %}
+      {% endfor %}
+      ,
+      '/',
+      '/assets/css/style.css',
+      '/assets/css/mobile.css',
+      '/assets/js/modernizr.js',
+      '/assets/css/non-screen.css',
+      '/assets/js/jquery.min.js',
+      '/assets/js/headsmart.min.js'
+    ];
+    </script>
+    <script type="text/javascript">
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
           navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
