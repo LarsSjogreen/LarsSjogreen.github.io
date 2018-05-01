@@ -12,7 +12,7 @@ Detta är en webbplats som beskriver projekt, experiment och lärdomar.
 
 ## Vad görs i Sjögreen Labs
 
-Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microkontrollerprojekt samt rådgivning inom IoT, digitala lösningar och företagsstrategi.
+I Sjögreen Labs gör jag prototyper, mjukvara, mukvaruarkitektur, utredningar, microkontrollerprojekt samt rådgivning inom IoT, digitala lösningar och företagsstrategi.
 
 ## Blogg
 
@@ -28,4 +28,4 @@ Sjögreen Labs gör prototyper, mjukvara, mukvaruarkitektur, utredningar, microk
 
 ## Kontakt
 
-[Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [RSS](/feed.xml)
+[Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [Instagram](https://www.instagram.com/barse42/) | [RSS](/feed.xml)
