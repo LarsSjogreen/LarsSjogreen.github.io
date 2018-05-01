@@ -1,5 +1,4 @@
 var CACHE_NAME = 'my-site-cache-v3.2';
-/*
 var urlsToCache = [
   '/',
   '/assets/css/style.css',
@@ -9,9 +8,7 @@ var urlsToCache = [
   '/assets/js/jquery.min.js',
   '/assets/js/headsmart.min.js'
 ];
-*/
 
-console.log(window.urlsToCache);
 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -19,7 +16,7 @@ self.addEventListener('install', function(event) {
     caches.open(CACHE_NAME)
       .then(function(cache) {
         console.log('Opened cache');
-        return cache.addAll(window.urlsToCache);
+        return cache.addAll(urlsToCache);
       })
   );
 });
