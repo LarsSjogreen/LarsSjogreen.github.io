@@ -1,6 +1,4 @@
 <script type="text/javascript">
-module.exports = nanographql
-
 var getOpname = /(query|mutation) ?([\w\d-_]+)? ?\(.*?\)? \{/
 
 function nanographql (str) {
@@ -16,12 +14,8 @@ function nanographql (str) {
     return JSON.stringify(data)
   }
 }
-</script>
 
-<script type="text/javascript">
-var gql = require('nanographql')
-
-var query = gql`
+var query = nanographql`
   query() 
   {
   project {
@@ -38,8 +32,7 @@ var query = gql`
       }
     }
   }
-}
-`
+}`
 
 try {
   var res = await fetch('https://api.mozaik.io/graphql/ebutik', {
