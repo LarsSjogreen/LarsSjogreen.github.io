@@ -35,7 +35,7 @@ var query = nanographql`
 }`
 
 try {
-  var res = await fetch('https://api.mozaik.io/graphql/ebutik', {
+  var res = fetch('https://api.mozaik.io/graphql/ebutik', {
     body: query(),
     headers: {
           'Accept': 'application/json',
