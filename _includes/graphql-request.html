@@ -16,11 +16,10 @@ function nanographql (str) {
 }
 
 var query = nanographql`
-  query() 
   {
-  project {
     documents(types: PRODUKT) {
       items {
+        id
         displayName
         ... on ProduktDocument {
           namn
@@ -31,7 +30,6 @@ var query = nanographql`
         }
       }
     }
-  }
 }`
 
 try {
@@ -44,9 +42,19 @@ try {
           'Host': 'api.mozaik.io'
         },
     method: 'POST'
-  })
-  var json = await res.json()
-  console.log(json)
+  }).then(function(res){
+      var jsonres = res.json().then(function(jsonres) {
+        d = document.createElement('ul');
+        for(var i=0;i<jsonres.data.documents.items.length;i++) {
+          var li = document.createElement('li');
+          li.innerHTML = '<b>' + jsonres.data.documents.items[i].displayName + ':</b> ' + jsonres.data.documents.items[i].beskrivning;
+          console.log(jsonres.data.documents.items[i].beskrivning);
+          d.appendChild(li);
+        }
+        document.getElementsByTagName('section')[0].appendChild(d);
+        console.log(jsonres);
+      });
+  });
 } catch (err) {
   console.error(err)
 }
