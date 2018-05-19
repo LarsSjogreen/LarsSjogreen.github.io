@@ -1,6 +1,6 @@
 # Välkommen
 
-Detta är en webbplats som beskriver projekt, experiment och lärdomar.
+Detta är en webbplats som beskriver blandade projekt, experiment och saker som jag har lärt mig.
 
 ## Projekt
 
