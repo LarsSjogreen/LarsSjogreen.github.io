@@ -12,4 +12,4 @@ Mitt första försök använde en [Jekyll-variabel](https://jekyllrb.com/docs/va
 
 Nu har jag publicerat och testat och intressant nog så verkar min förändring ha haft en diametralt motsatt effekt. Sidan verkar laddas om vid varje klick. Det gör ju att det blir färskt innehåll hela tiden, men det innebär också att det inte används någon cache över huvud taget. Jag ska köra Lighthous och undersöka vidare. Återkommer.
 
-Lighthouse verkar vara ok med cachegrejorna så jag släpper detta för tillfället och petar lite med att göra sajten lite med iPhone-vänlig i väntan på att Apple får tummen ur och stödjer PWA.
+Lighthouse verkar vara ok med cachegrejorna så jag släpper detta för tillfället och petar lite med att göra sajten lite med iPhone-vänlig i väntan på att Apple får tummen ur och stödjer PWA. Till exempel att lägga till fler storlekar på ikonerna.
