@@ -1,5 +1,5 @@
 {
-    "short_name": "S-Labs",
+    "short_name": "SjLabs",
     "name": "Sjögreen Labs",
     "icons": [
       {
@@ -8,9 +8,39 @@
         "sizes": "48x48"
       },
       {
+        "src": "images/lars72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "images/lars76.png",
+        "type": "image/png",
+        "sizes": "76x76"
+      },
+      {
         "src": "images/lars96.png",
         "type": "image/png",
         "sizes": "96x96"
+      },
+      {
+        "src": "images/lars120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "images/lars144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "images/lars152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "images/lars180.png",
+        "type": "image/png",
+        "sizes": "180x180"
       },
       {
         "src": "images/lars192.png",
