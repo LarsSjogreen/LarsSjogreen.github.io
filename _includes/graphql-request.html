@@ -47,7 +47,7 @@ try {
         d = document.createElement('ul');
         for(var i=0;i<jsonres.data.documents.items.length;i++) {
           var li = document.createElement('li');
-          li.innerHTML = '<b>' + jsonres.data.documents.items[i].displayName + ':</b> ' + jsonres.data.documents.items[i].beskrivning;
+          li.innerHTML = '<div>' + jsonres.data.documents.items[i].displayName + '</div><div>' + jsonres.data.documents.items[i].beskrivning + '</div>';
           console.log(jsonres.data.documents.items[i].beskrivning);
           d.appendChild(li);
         }
