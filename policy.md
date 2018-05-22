@@ -1,5 +1,5 @@
 ---
-title:Cookie policy
+permalink: /policy.html
 ---
 
 ## Cookie policy
