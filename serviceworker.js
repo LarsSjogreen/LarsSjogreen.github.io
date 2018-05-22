@@ -6,7 +6,8 @@ var urlsToCache = [
   '/assets/js/modernizr.js',
   '/assets/css/non-screen.css',
   '/assets/js/jquery.min.js',
-  '/assets/js/headsmart.min.js'
+  '/assets/js/headsmart.min.js',
+  '/2018/05/19/busting-the-cache.html'
 ];
 
 

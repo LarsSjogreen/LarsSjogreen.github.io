@@ -19,9 +19,10 @@
     <script type="text/javascript" src="{{ '/assets/js/modernizr.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/headsmart.min.js' | relative_url }}"></script>
+
     <script type="text/javascript">
       const CACHE_NAME = 'cache{{site.time}}';
-      if ('serviceWorker' in navigator) {
+      if (! 'serviceWorker' in navigator) {
         window.addEventListener('load', function() {
           navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
             // Registration was successful
