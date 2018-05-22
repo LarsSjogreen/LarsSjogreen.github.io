@@ -22,7 +22,7 @@
 
     <script type="text/javascript">
       const CACHE_NAME = 'cache{{site.time}}';
-      if (! 'serviceWorker' in navigator) {
+      if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
           navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
             // Registration was successful
@@ -91,10 +91,9 @@
         <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
         <span class="octocat"></span>
       </footer>
-
     </div>
 
-    <script>
+    <script type="text/javascript">
       window.EUCMOptions = {
           policyUrl: 'policy.html',
           cookie: {
@@ -102,6 +101,7 @@
           }
       }
   </script>
+
   <script type="text/javascript" src="/assets/js/eu-cookie.min.js"></script> 
 
     {% if site.google_analytics %}
