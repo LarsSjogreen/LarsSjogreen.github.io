@@ -7,6 +7,11 @@ layout: default
   {{ content }}
 </article>
 
+<hr/>
+{% for tag in page.tags %}
+<div class="tagblop">{{ tag }}</div>
+<hr/>
+
 <div id="post-nav" class="clearfix nav-slide">
     <div class="work">
         {% if page.previous.url %}
