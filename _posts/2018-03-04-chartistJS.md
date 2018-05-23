@@ -1,4 +1,5 @@
 ---
+title: Chartist.js
 tags:
 - chartist
 ---

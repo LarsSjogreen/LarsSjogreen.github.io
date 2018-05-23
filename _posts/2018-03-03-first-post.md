@@ -1,4 +1,5 @@
 ---
+title: Mitt första blogginlägg
 published: false
 ---
 Välkommen till mitt första blogginlägg på Sjögreen Labs. Jag testar att använda mig av github pages och Jekyll, främst för att lära mig ramverket men kanske också för att starta om bloggandet.
