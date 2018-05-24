@@ -1,3 +1,10 @@
+---
+title: Imgsnapper
+tags:
+- nodejs
+- selenium
+- opensource
+---
 ## imgsnapper
 
 En kompis frågade för ett par dagar sedan om det fanns något program som kunde ta hand om att spara en bild eller en skärmavbild från en webbsida med regelbundna intervaller. Det finns säkert en hel del sådana program, men det jag hittade efter lite googling var mest gamla windowsprogram och liknande. Därför (och eftersom jag kände mig lite programmeringssugen) så bestämde jag mig för att göra ett kommandoradsprogram som skulle kunna göra just det.

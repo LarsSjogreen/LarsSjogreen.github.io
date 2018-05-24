@@ -1,3 +1,8 @@
+---
+title: Lighthouse och annat
+tags:
+- pwa
+---
 ## Lighthouse och annat
 
 Jag vet att jag är sen på pucken, men jag testade [Lighthouse](https://developers.google.com/web/tools/lighthouse/) idag och jag önskar att den hade funnits för fyra-fem år sedan då jag som bäst funderade på webboptimering, SEO och responsivitet. Förutom att den numera är inbyggd i dev tools i Chrome (under fliken "Audits") så finns den också som plugin till Chrome (om man vill ha en knapp att trycka på istället) och dessutom som fristående command line-program som man enkelt installerar genom att skriva `npm install -g lighthouse`.

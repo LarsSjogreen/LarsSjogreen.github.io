@@ -2,6 +2,7 @@
 title: Chartist.js
 tags:
 - chartist
+- javascript
 ---
 ## Chartist.js
 
