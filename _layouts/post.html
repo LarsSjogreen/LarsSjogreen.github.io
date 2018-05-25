@@ -10,7 +10,7 @@ layout: default
 <hr/>
 <div class="thetags">
 {% for tag in page.tags %}
-<span class="tagblop">{{ tag }}</span>
+<span class="tagblop"><a href="/tag/{{tag}}">{{ tag }}</a></span>
 {% endfor %}
 </div>
 
