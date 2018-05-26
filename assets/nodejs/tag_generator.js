@@ -18,8 +18,10 @@ fs.readdir(postdir, (err, files) => {
 
     async.map((filenames), fs.readFile, function(err, data) {
         let rows = data.toString().split("\n");
+        let frontmatter = false;
         rows.forEach(row => {
-            if (row.startsWith('- ')) { tags.add(row.replace('- ','').trim()); tagArr.push(row); }
+            if (row.startsWith('---')) { frontmatter = ! frontmatter; }
+            if ((frontmatter) && (row.startsWith('- '))) { tags.add(row.replace('- ','').trim()); tagArr.push(row); }
         });
         createFiles(tags);
     });
