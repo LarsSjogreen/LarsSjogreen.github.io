@@ -30,4 +30,6 @@ This is just a very simplistic test. I created a free account at [Mozaik](https:
 
 It took me a while to realize that I needed to drop the top level (`products`) for some reason. After that, I used the simplest possible JavaScript library that I could find ([nanographql](https://github.com/yoshuawuyts/nanographql)) to call the Mozaik back end. I simply generate the HTML output by using `.createElement()`. This is what the end result looks like:
 
+<div id="placeholder"></div>
+
 {% include graphql-request.html %}
