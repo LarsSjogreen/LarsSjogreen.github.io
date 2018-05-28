@@ -1,11 +1,11 @@
 ---
-title: Tagsidor
+title: Taggsidor
 tags:
 - javascript
 - jekyll
 - nodejs
 ---
-## Tagsidor
+## Taggsidor
 
 Med hjälp av [den här pedagogiska beskrivningen](http://longqian.me/2017/02/09/github-jekyll-tag/) skriven av [Long Qian](http://longqian.me/) så har jag satt upp tagsidor där länka till alla bloggposter med liknande ämnen kan hittas. Det enda som bjöd lite motstånd var att konvertera [ett pythonscript](https://github.com/qian256/qian256.github.io/blob/master/tag_generator.py) till [JavaScript](https://github.com/LarsSjogreen/LarsSjogreen.github.io/blob/master/assets/nodejs/tag_generator.js). Jag snubblade lite på async-beteendet i fs-biblioteket lite grann och bestämde mig ganska snart för att förenkla för mig själv genom att använda node-biblioteket [async](https://github.com/caolan/async) och metoden map istället för att försöka synkronisera en foreach med asynkrona filsystemanrop för hand. Mycket smidigt.
 
