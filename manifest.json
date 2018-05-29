@@ -55,7 +55,7 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "orientation": "portrait",
+    "orientation": "portrait-primary",
     "background_color": "#ece4d8",
     "theme_color": "#ece4d8"
   }
