@@ -10,7 +10,7 @@ Detta är en webbplats som beskriver blandade projekt, experiment och saker som 
 * [Öppen källkod](https://github.com/LarsSjogreen/imgsnapper)
 * [Gräsrotsrörelser](https://www.makerspace.se/)
 
-## Vad görs i Sjögreen Labs
+## Vad händer i Sjögreen Labs
 
 I Sjögreen Labs gör jag prototyper, mjukvara, mukvaruarkitektur, utredningar, microkontrollerprojekt samt rådgivning inom IoT, digitala lösningar och företagsstrategi.
 
