@@ -1,18 +1,19 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 
 <script type="text/javascript">
-anime({
-  targets: '#grej',
-  translateX: [
-    { value: 100, duration: 1200 },
-    { value: 0, duration: 800 }
-  ],
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 2000,
-  loop: true
-});
+window.onload = function() {
+    anime({
+        targets: '#grej',
+        translateX: [
+            { value: 100, duration: 1200 },
+            { value: 0, duration: 800 }
+        ],
+        rotate: '1turn',
+        backgroundColor: '#FFF',
+        duration: 2000,
+        loop: true
+    });
+}
 </script>
 
-
-<div id="grej">XXX</div>
+<div id="grej">Test</div>
