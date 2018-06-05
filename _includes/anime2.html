@@ -1,0 +1,26 @@
+<style>
+    #annanGrej {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 12px;
+    }
+</style>
+
+<script type="text/javascript">
+window.onload = function() {
+    anime({
+        targets: '#annanGrej',
+        translateX: [
+            { value: 0, duration: 1600 },
+            { value: 0, duration: 900 }
+        ],
+        rotate: '2turn',
+        backgroundColor: '#7c334f',
+        duration: 2100,
+        loop: true
+    });
+}
+</script>
+
+<div id="annanGrej">Testar en annan sak</div>
