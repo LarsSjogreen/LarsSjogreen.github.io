@@ -29,3 +29,5 @@ I Sjögreen Labs gör jag prototyper, mjukvara, mukvaruarkitektur, utredningar, 
 ## Kontakt
 
 [Twitter](https://twitter.com/barse) | [LinkedIn](https://www.linkedin.com/in/larssjogreen/) | [Instagram](https://www.instagram.com/barse42/) | [RSS](/feed.xml)
+
+## Senaste ändring {{ site.data.release }}
