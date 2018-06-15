@@ -1,0 +1,20 @@
+<video id="video" width="640" height="480" autoplay></video>
+<button id="snap">Ta en bild</button>
+<canvas id="camSnapshot" width="640" height="480"></canvas>
+
+<script>
+var video = document.getElementById('video');
+if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+        video.src = window.URL.createObjectURL(stream);
+        video.play();
+    });
+}
+
+var canvas = document.getElementById('camSnapshot');
+var context = canvas.getContext('2d');
+
+document.getElementById("snap").addEventListener("click", function() {
+	context.drawImage(video, 0, 0, 640, 480);
+});
+</script>

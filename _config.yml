@@ -3,6 +3,7 @@ title: Sjögreen Labs
 description: Innovation, ansvarstagande och kreativitet
 google_analytics: UA-115000064-1
 theme: jekyll-theme-merlot
+repository: "LarsSjogreen/LarsSjogreen.github.io"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
