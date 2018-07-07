@@ -16,15 +16,21 @@ I Sjögreen Labs gör jag prototyper, mjukvara, mukvaruarkitektur, utredningar, 
 
 ## Blogg
 
+
 {% for post in site.posts %}
 
     {% if forloop.rindex <= 15 %}
 
-[{{ post.title }}]({{ post.url }}) (Skriven {{ post.date | date: "%Y-%m-%d" }}. {{ post.content | number_of_words }} ord.)
+<div class='blogpost' markdown='1'>
+[{{ post.title }}]({{ post.url }}) 
+<span class='expl' markdown='1'>(Skriven {{ post.date | date: "%Y-%m-%d" }}. {{ post.content | number_of_words }} ord.)
+</span>
+</div>
 
     {% endif %}
 
 {% endfor %}
+
 
 ## Kontakt
 

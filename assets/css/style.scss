@@ -8,8 +8,34 @@
 }
 
 a.hometitle:hover {
-  color: #ece4d8;
+  color: #ece4d8de;
   text-decoration: none;
+}
+
+.blogpost {
+  a {
+    background: #efece6;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 6px;
+    padding-left: 6px;
+    padding: 15px;
+    margin: 1px;
+    line-height: 1px;
+    width: 300px;
+    display: inline-block;
+    &:hover {
+      background: #ccc9c2;
+    }
+  }
+}
+
+.expl {
+  padding-top: 12px;
+  font-size: x-small;
+  color: black;
+  float: right;
 }
 
 .work {
