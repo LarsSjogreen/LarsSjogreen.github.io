@@ -1,6 +1,6 @@
-<video id="video" width="640" height="480" autoplay></video>
+<video id="video" width="400" height="300" autoplay></video>
 <button id="snap">Ta en bild</button>
-<canvas id="camSnapshot" width="640" height="480"></canvas>
+<canvas id="camSnapshot" width="400" height="300"></canvas>
 
 <script>
 var video = document.getElementById('video');
@@ -15,6 +15,6 @@ var canvas = document.getElementById('camSnapshot');
 var context = canvas.getContext('2d');
 
 document.getElementById("snap").addEventListener("click", function() {
-	context.drawImage(video, 0, 0, 640, 480);
+	context.drawImage(video, 0, 0, 400, 300);
 });
 </script>
